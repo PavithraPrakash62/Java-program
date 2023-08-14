@@ -1,0 +1,32 @@
+package com.edu;
+
+import java.util.Scanner;
+
+public class Switchchar {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+         char ch;
+         Scanner sc = new Scanner(System.in);
+         System.out.println("Enter the char");
+         ch=sc.next().charAt(0);
+         switch(ch) {
+         case 'A':
+         case 'a':
+         case 'E':
+         case 'e':
+         case 'I':
+         case 'i':
+         case 'O':
+         case 'o':
+         case 'U':
+         case 'u': System.out.println(ch+ "is an Vowel");
+         default :System.out.println(ch+ "is an not Vowel");
+         
+        	 
+       
+         }
+         
+	}
+
+}
